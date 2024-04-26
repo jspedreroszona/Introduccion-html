@@ -1,0 +1,57 @@
+body{
+
+background-image: url(./Fondo\ 2.webp);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.cl1{
+    color: rgb(247, 241, 239);
+}
+.imagen{
+    width: 300px;
+}
+
+.r1{
+    color: rgb(250, 248, 248);
+    font-size: 25px;
+}
+
+
+#principal{
+    text-align: center;
+    font-size: 3em
+    color rgb 217, 217, 223;
+
+}
+
+#principal{
+
+    border: 2px solid #f5ecec;
+     width: 80vw; 
+     margin: auto;
+     padding: 1em 1em 1em 1em;
+     border-radius: 3%;
+     transition:1s;
+}
+ 
+#principal:hover{
+    background-color: rgb(40, 39, 59) ;
+}
+
+#principal2{
+    font-size: 60px;
+    color: rgb(217, 217, 223);
+}
+
+#principal2{
+    border: 2px solid #f5ecec;
+    width: 80vw; 
+    margin: auto;
+    padding: 1em 1em 1em 1em;
+    border-radius: 3%;
+    transition:1s;
+}
+ #principal2:hover{
+    background-color: rgb(40, 39, 59)
+ }
