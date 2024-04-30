@@ -5,38 +5,83 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-.cl1{
-    color: rgb(247, 241, 239);
-}
-.imagen{
-    width: 300px;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+.cl1{  
+    padding: 1em;
+    width: auto;
+     color: rgb(247, 241, 239);
+    font-size: 2em;
+        }
+.laminas {    
+    border: 3px solid white;
+    padding: 2em;
+    width: 15em;
+    margin: 2em;
+    height: 15em;   
+  }
+
+.items{
+    font-size: 1em;
+    padding: auto;
+    width: auto;
+    margin: 1%;
+    height: auto;
 }
 
 .r1{
     color: rgb(250, 248, 248);
-    font-size: 25px;
+    font-size: 1.5em;
+    padding: auto;
+    width: auto;
+    margin: 1%;
+    height: auto;
+    
 }
+
 
 
 #principal{
     text-align: center;
-    font-size: 3em
-    color rgb 217, 217, 223;
-
+    font-size: 4em;
+    color: rgb(247, 241, 239);
+    font-size: 3em;
 }
 
 #principal{
-
-    border: 2px solid #f5ecec;
-     width: 80vw; 
-     margin: auto;
-     padding: 1em 1em 1em 1em;
-     border-radius: 3%;
+    border: 2px solid white;   
+     width: auto;     
+     padding:2em; 
+     margin: 1em;
      transition:1s;
+     height: 1.5em;
 }
  
 #principal:hover{
-    background-color: rgb(40, 39, 59) ;
+    background-color: rgb(86, 85, 95) ;
+}
+
+#idea{
+    width: auto;
+    margin: auto;
+    padding: 2.5em;
+    height: 1em;
+    text-align: center;
+}
+#cl1mayor{
+    
+    width: auto;
+    margin: auto;
+    padding: 1em;
+    height: 1em;
+    text-align: center;
+    
+
 }
 
 #principal2{
@@ -44,13 +89,30 @@ background-attachment: fixed;
     color: rgb(217, 217, 223);
 }
 
+#grupo-laminas{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    flex-direction:  ;
+    justify-content: space-evenly;
+   
+}
+
 #principal2{
     border: 2px solid #f5ecec;
-    width: 80vw; 
+    width: 60%; 
     margin: auto;
-    padding: 1em 1em 1em 1em;
+    padding: 1em;
     border-radius: 3%;
     transition:1s;
+    text-align: center;
+    display: flex;
+    
 }
  #principal2:hover{
     background-color: rgb(40, 39, 59)
